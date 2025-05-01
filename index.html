@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>114514安全服务平台</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+        }
+
+        /* 导航栏 */
+        .nav {
+            background: #00a750;
+            height: 60px;
+            padding: 0 10%;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px;
+        }
+
+        .nav-menu {
+            display: flex;
+            margin-left: 40px;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            padding: 0 20px;
+            font-size: 16px;
+        }
+
+        /* 轮播图 */
+        .banner {
+            height: 400px;
+            background: url('banner-bg.jpg') center/cover;
+            position: relative;
+        }
+
+        /* 产品服务 */
+        .products {
+            padding: 40px 10%;
+            background: #f5f5f5;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .product-item {
+            width: 23%;
+            background: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* 新闻资讯 */
+        .news {
+            padding: 40px 10%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .news-left {
+            width: 68%;
+        }
+
+        .news-right {
+            width: 30%;
+        }
+
+        /* 页脚 */
+        .footer {
+            background: #333;
+            color: white;
+            padding: 30px 10%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="nav">
+        <img src="logo.png" alt="360 Logo" class="logo">
+        <div class="nav-menu">
+            <a href="#home">首页</a>
+            <a href="#products">产品</a>
+            <a href="#solutions">解决方案</a>
+            <a href="#service">服务</a>
+            <a href="#about">关于我们</a>
+        </div>
+    </nav>
+
+    <!-- 轮播图 -->
+    <section class="banner">
+        <!-- 这里可以添加轮播内容 -->
+    </section>
+
+    <!-- 产品服务 -->
+    <section class="products">
+        <h2>核心产品与服务</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="safe-icon.png" alt="安全防护">
+                <h3>网络安全防护</h3>
+                <p>全面保护您的网络安全</p>
+            </div>
+            <!-- 重复类似的产品区块 -->
+        </div>
+    </section>
+
+    <!-- 新闻资讯 -->
+    <section class="news">
+        <div class="news-left">
+            <h3>安全资讯</h3>
+            <ul>
+                <li><a href="#">最新网络安全趋势分析</a></li>
+                <li><a href="#">防范新型网络攻击指南</a></li>
+                <!-- 更多新闻条目 -->
+            </ul>
+        </div>
+        <div class="news-right">
+            <h3>安全公告</h3>
+            <img src="notice.jpg" alt="安全公告">
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+    </footer>
+</body>
+</html>
